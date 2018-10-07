@@ -25,7 +25,7 @@ public class YahooSearchTest {
     }
 
     @Test
-    public void testSearch() throws Exception {
+    public void testSearchSofia() throws Exception {
         System.setProperty("webdriver.gecko.driver", "/C:\\Users\\Angela\\Desktop\\WebdriverJavaBootcamp-master\\src\\test\\resources\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get("https://mail.google.com");
